@@ -1,0 +1,19 @@
+.top-section {
+  width: 100%; 
+}
+
+nav>li{
+  display: inline-block;
+}
+
+.top-section div {
+  display: inline-block;
+  width: 50%; 
+}
+.top-section .top-section-left-info {
+  background-color: rgb(65, 62, 62); 
+}
+
+.top-section .top-section-right-info {
+  background-color: rgb(65, 62, 62); 
+}
