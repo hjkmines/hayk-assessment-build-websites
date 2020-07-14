@@ -1,19 +1,36 @@
-.top-section {
-  width: 100%; 
+body {
+  margin: 0; 
 }
 
-nav>li{
-  display: inline-block;
+li {
+  display: inline;
+  margin: 10px;
 }
 
-.top-section div {
-  display: inline-block;
-  width: 50%; 
+a:hover {
+  color: aqua;
 }
-.top-section .top-section-left-info {
+
+div {
+  float: left;
+  display: inline-block;   
+}
+
+img {
+  width: 630px; 
+  height: 300px;
+}
+
+.top-section-left-info {
   background-color: rgb(65, 62, 62); 
+  color: white; 
+  padding: 10px; 
 }
 
-.top-section .top-section-right-info {
+.top-section-right-info {
   background-color: rgb(65, 62, 62); 
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+  padding: 10px 50px; 
 }
